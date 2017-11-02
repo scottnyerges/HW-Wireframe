@@ -1,42 +1,82 @@
-/**
- * Float Layout Activity
- **/
 
-* {
-  box-sizing: border-box;
-  text-align: center;
-}
 
+/*-- this is old header code from 09-FloatLayout --*/
 body {
+   width: 960px;
+   background-color: #777;
+   margin-left: auto;
+   margin-right: auto;
+   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   font-size: 18px;
+   text-align: center;
+   color: gray;
+
 }
+
+/*-- this is header code to set the overall width of the page --*/
 
 header {
-  padding: 20px;
-  margin-bottom: 20px;
-  color: #333;
-  background: #ccc;
+	padding: 20px;
+	margin-bottom: 20px;
+	background: #ebebeb;
 }
 
-section {
+
+/*-- this is nav bar code --*/
+nav {
+	padding: 20px;
+	margin-bottom: 20px;
+	background: #ebebeb;
 }
 
-#left {
+/*-- this is for the article, which goes in the section --*/
+article {
+	background-color: #777;
+	padding: 20px;
+	margin-top: 20px;
+	color: white;
 }
 
-#middle {
-}
-
-#right {
-}
-
-#full {
-}
-
-#division {
-}
-
+/*-- this is for the aside --*/
 aside {
+	width: 365px;
+	height: 285px;
+	float: right;
+	background-color: #ebebeb;
+	padding: 20px;
 }
 
+/*-- this is new footer code --*/
 footer {
+	padding: 20px;
+	background: #ebebeb;
+	clear: both;
+
 }
+
+/*-- this contains the section --*/
+#section {
+	width: 495px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #ebebeb;
+    padding: 20px;
+    float: left;
+}
+
+/*-- this contains the h1,h2,h3 (aka division) --*/
+#H_division {
+	background-color: #ebebeb;
+	color: gray;
+	padding: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/*-- this contains the paragraph (aka division) --*/
+#P_division {
+	background-color: #ebebeb;
+	color: gray;
+	padding: 5px;
+}
+
